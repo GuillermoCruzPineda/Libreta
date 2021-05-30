@@ -1,0 +1,17 @@
+$background: #121212;
+$black: #000000;
+$white:#ffffff;
+
+$primary: #bb86fc;
+$primary_variant:#3700b3;
+$secondary:#03dac6;
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@mixin transition-ease {
+    transition: all 0.3s ease-in-out;
+}

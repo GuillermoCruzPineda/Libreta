@@ -1,0 +1,27 @@
+.indice {
+    height: 20vh;
+    width: 100%;
+    overflow: auto;
+    position: sticky;
+    top: 33px;
+    background: $background;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding-top:1rem ;
+
+
+    &__item{
+        padding-bottom: .5rem;
+        list-style: none;
+    }
+
+    &__link{
+        padding: 0 1rem;
+       &:hover{
+           @include transition-ease;
+           border-bottom: solid 1px $primary;
+           border-left: solid 1px $primary;
+       }
+    }
+}
