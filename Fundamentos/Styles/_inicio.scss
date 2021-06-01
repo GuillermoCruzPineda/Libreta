@@ -1,0 +1,45 @@
+.header{
+    padding: 0;
+    color: $white;
+    display: grid;
+    grid-template-columns: 1fr;
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+    &__titulo{
+        padding: 1rem 4rem;
+        color: $primary;
+    }
+    &__content{
+        max-width: 900px;
+        justify-self: center;
+        text-align: center;
+
+        >.titulo{
+            padding-top:2rem;
+            padding-bottom: 1rem;
+        }
+    }
+}
+
+.frases{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    text-align: justify;
+    max-width: 666px;
+}
+
+.main{
+    &__content{
+        max-width: 900px;
+        &__contenido{
+            max-width: 700px;
+        }
+   
+    }
+    &__indice{
+        &__titulo{
+            width: 900px;
+            border-bottom: $primary 1px solid;
+        }
+    }
+}

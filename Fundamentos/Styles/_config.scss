@@ -15,3 +15,12 @@ $secondary:#03dac6;
 @mixin transition-ease {
     transition: all 0.3s ease-in-out;
 }
+
+//GRID
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    &-js-c{
+        justify-self: center;
+    }
+}
